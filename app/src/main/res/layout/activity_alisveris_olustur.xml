@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".AlisverisOlusturActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:orientation="vertical"
+   android:gravity="center">
+
+
+
+   <EditText
+       android:id="@+id/alisverisAdiOlustur"
+       android:hint="Alışverişinize bir ad verin:"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:inputType="text"
+       android:maxLength="25"></EditText>
+
+   <EditText
+       android:layout_marginTop="20dp"
+      android:id="@+id/alisverisYapicakYerİsmiEkle"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:hint="Alışveriş yapacağınız yeri yazınız:"
+      android:inputType="text"
+      android:maxLength="25"></EditText>
+
+   <EditText
+      android:layout_marginTop="20dp"
+      android:id="@+id/alisverisNotuOlustur"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:hint="Alışveriş notu yazınız:"
+      android:inputType="textMultiLine"
+      android:maxLength="120"></EditText>
+
+
+  <Button
+      android:layout_marginTop="30dp"
+     android:id="@+id/alisverisOlusturButonu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:text="Alışveriş Oluştur"
+      android:onClick="alisverisOlustur"></Button>
+
+
+</LinearLayout>
+</LinearLayout>

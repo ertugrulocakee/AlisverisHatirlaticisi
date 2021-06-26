@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".AlisverisBilgisiEkleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/alisverisTarihiEkle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alışveriş Tarihi Ekle"></Button>
+
+        <ImageView
+            android:id="@+id/fisEkle"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:onClick="fisEkle"
+            app:srcCompat="@drawable/icons8_check_80"></ImageView>
+
+       <Button
+           android:layout_marginTop="30dp"
+           android:id="@+id/alisverisKonumuEkle"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Alışveriş Konumu Ekle"
+           android:onClick="konumEkle"></Button>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

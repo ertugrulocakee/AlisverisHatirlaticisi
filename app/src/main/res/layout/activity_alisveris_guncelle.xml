@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".AlisverisGuncelleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+
+        <EditText
+            android:id="@+id/alisverisAdiGuncelle"
+            android:hint="Alışverişinize yeni bir ad verin:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="25"></EditText>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/alisverisAdiGuncelleOnayla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alışveriş adını güncelle"
+            android:onClick="adGuncelle"></Button>
+
+        <EditText
+            android:layout_marginTop="40dp"
+            android:id="@+id/alisverisYapicakYerIsmiGuncelle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alışveriş yapacağınız yeri güncelleyin:"
+            android:inputType="text"
+            android:maxLength="25"></EditText>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/alisverisYeriGuncelleOnayla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alışveriş yerini güncelle"
+            android:onClick="yerGuncelle"></Button>
+
+
+
+        <EditText
+            android:layout_marginTop="40dp"
+            android:id="@+id/alisverisNotuGuncelle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alışveriş notunu güncelle:"
+            android:inputType="textMultiLine"
+            android:maxLength="120"></EditText>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/alisverisNotuGuncelleButonu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alışveriş notunu güncelle"
+            android:onClick="notuGuncelle"></Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>

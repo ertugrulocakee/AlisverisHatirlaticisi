@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "855716036159",
+    "project_id": "alisverislistesi-2d046",
+    "storage_bucket": "alisverislistesi-2d046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855716036159:android:b75a52447548497fb1c28a",
+        "android_client_info": {
+          "package_name": "com.ocak.alisverishatirlaticisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855716036159-2unp5k617c0a174bbt3u16fqrpuca02n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqUa26_oC4bM-xUptVVQ3MwKXJ6lBD_Ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855716036159-2unp5k617c0a174bbt3u16fqrpuca02n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

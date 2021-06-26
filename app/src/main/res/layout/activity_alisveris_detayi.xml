@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".AlisverisDetayiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:gravity="center">
+
+
+           <TextView
+               android:id="@+id/alisverisDetayiAd"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="ad"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:textAlignment="center"></TextView>
+
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:id="@+id/alisverisDetayiYer"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="yer"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:textAlignment="center"></TextView>
+
+           <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_marginTop="20dp"
+               xmlns:map="http://schemas.android.com/apk/res-auto"
+               xmlns:tools="http://schemas.android.com/tools"
+               android:id="@+id/mapDetail"
+               android:name="com.google.android.gms.maps.SupportMapFragment"
+               android:layout_width="match_parent"
+               android:layout_height="400dp"
+               tools:context=".AlisverisDetayiActivity" />
+
+           <TextView
+               android:id="@+id/alisverisDetayiTarih"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="tarih"
+               android:textStyle="bold"
+               android:textAlignment="center"
+               android:textSize="20sp"></TextView>
+
+          <TextView
+              android:id="@+id/fisBilgisiText"
+              android:layout_marginTop="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Alışveriş Fişiniz"
+              android:textStyle="bold"
+              android:textSize="20sp"
+              android:textAlignment="center"></TextView>
+
+           <ImageView
+               android:layout_marginTop="20dp"
+               android:id="@+id/alisverisDetayiFis"
+               android:layout_width="match_parent"
+               android:layout_height="250dp"></ImageView>
+
+
+           <TextView
+               android:id="@+id/notBilgisiText"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Alışveriş Notunuz"
+               android:textStyle="bold"
+               android:textSize="20sp"
+               android:textAlignment="center"></TextView>
+
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:id="@+id/alisverisDetayiNot"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="not"
+               android:textSize="18sp"></TextView>
+
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:layout_marginTop="20dp"
+               android:id="@+id/recyclerViewUrunler"
+               android:layout_width="match_parent"
+               android:layout_height="500dp">
+
+           </androidx.recyclerview.widget.RecyclerView>
+
+
+           <TextView
+               android:layout_marginTop="15dp"
+               android:id="@+id/urunSayisiBilgisi"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Ürün yok. Ürün listen boş!"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:textAlignment="center"></TextView>
+
+
+
+           <TextView
+               android:layout_marginTop="40dp"
+               android:id="@+id/alisverisHatirlaticiText"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Alışverişiniz için bir hatırlatıcı kurun."
+               android:textStyle="bold"
+               android:textAlignment="center"
+               android:textSize="20sp"></TextView>
+
+
+
+           <EditText
+               android:layout_marginTop="20dp"
+               android:id="@+id/edt_timer"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Lütfen dk cinsinden alarm süresi giriniz:"
+               android:inputType="number"
+               android:maxLength="4"/>
+
+
+           <LinearLayout
+
+               android:layout_marginTop="30dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:weightSum="2"
+               android:orientation="horizontal">
+
+               <Button
+                   android:id="@+id/btn_create"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:layout_marginRight="10dp"
+                   android:text="Alarm oluştur"/>
+
+               <Button
+                   android:id="@+id/btn_cancel"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Alarmı iptal et"/>
+
+           </LinearLayout>
+
+
+
+
+
+
+
+
+       </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

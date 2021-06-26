@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".AlisverisBilgileriGuncelleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/alisverisTarihiGuncelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yeni bir alışveriş tarihi seç"></Button>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/alisverisTarihiGuncelleOnayi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tarihGuncelle"
+            android:text="Alışveriş Tarihini Güncelle"></Button>
+
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/alisverisKonumuGuncelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alışveriş Konumu Guncelle"
+            android:onClick="konumGuncelle"></Button>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

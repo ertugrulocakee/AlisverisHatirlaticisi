@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".KayitOlActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/userimageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="gorselEkle"
+                app:srcCompat="@drawable/icons8_putin_96"></ImageView>
+
+
+            <EditText
+                android:id="@+id/createuserNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Adınızı yazınız:"
+                android:inputType="textPersonName"
+                android:maxLength="10"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"
+                />
+
+
+            <EditText
+
+                android:id="@+id/soyadText"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:ems="10"
+                android:hint="Soyadınızı yazınız:"
+                android:inputType="textPersonName"
+                android:maxLength="10"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+
+                />
+
+
+
+            <EditText
+                android:id="@+id/createEmailText"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:ems="10"
+                android:hint="E-mail adresinizi yazınız:"
+                android:inputType="textEmailAddress"
+                android:maxLength="35"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                />
+
+
+
+            <EditText
+                android:id="@+id/createPasswordText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Şifrenizi yazınız:"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <EditText
+                android:id="@+id/createPasswordTwoText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Şifrenizi tekrar yazınız:"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                />
+
+
+
+            <Button
+                android:id="@+id/buttonCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="createUser"
+                android:text="Kayıt Ol"
+                android:layout_marginTop="20dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

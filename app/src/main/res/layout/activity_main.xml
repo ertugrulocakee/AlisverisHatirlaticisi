@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/eMailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/sym_action_email"
+            android:ems="10"
+            android:hint="Lütfen E-mail adresinizi giriniz:"
+            android:inputType="textPersonName"
+            android:maxLength="35"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/sifreText"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:drawableLeft="@android:drawable/ic_secure"
+            android:ems="10"
+            android:hint="Lütfen şifrenizi giriniz:"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+
+        <Button
+            android:id="@+id/buttonGiris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_marginRight="5dp"
+            android:onClick="girisYap"
+
+            android:text="Giriş Yap" />
+
+        <Button
+            android:id="@+id/buttonKayit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="5"
+            android:onClick="kayitOl"
+            android:text="Kayıt Ol" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

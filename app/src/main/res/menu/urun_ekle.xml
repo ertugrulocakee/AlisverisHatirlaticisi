@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/urunEkle" android:title="Ürün ekle"></item>
+
+    <item android:id="@+id/bilgi_ekle" android:title="Alışveriş bilgileri ekle"></item>
+
+    <item android:id="@+id/bilgiGuncelle" android:title="Alışveriş bilgilerini güncelle"></item>
+
+    <item android:id="@+id/alisverisPaylas" android:title="Alışverişini paylaş"></item>
+
+
+</menu>

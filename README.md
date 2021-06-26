@@ -1,0 +1,3 @@
+# DonemProjesi_AlisverisHatirlaticisi
+ErtuğrulOcakDonemProjesiMobilTeknolojilerVeUygulamalari
+Proje kapsamında bir alışveriş hatırlatıcısı hazırlanmıştır. Uygulama kotlin programlama dili ile geliştirilmiştir. 

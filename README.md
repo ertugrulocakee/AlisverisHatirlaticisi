@@ -1,3 +1,3 @@
 # DonemProjesi_AlisverisHatirlaticisi
-Ertuğrul Ocak DonemProjesi MobilTeknolojilerVeUygulamalari
+Mobil Teknolojiler ve Uygulamaları dersinin dönem projesi için hazırlanmıştır.
 Proje kapsamında bir alışveriş hatırlatıcısı hazırlanmıştır. Uygulama kotlin programlama dili ile geliştirilmiştir. 
